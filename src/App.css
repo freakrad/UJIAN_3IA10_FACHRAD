@@ -1,3 +1,4 @@
+/* mendefinisikan style untuk elemen dengan id root */
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -5,6 +6,7 @@
   text-align: center;
 }
 
+/* mendefinisikan style untuk elemen dengan class logo */
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -18,6 +20,8 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+
+/* mendefinisikan animasi logo-spin yang akan dipakai pada elemen dengan class logo.  */
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -33,20 +37,24 @@
   }
 }
 
+/* mendefinisikan style untuk elemen dengan class card */
 .card {
   padding: 2em;
 }
 
+/* Style ini digunakan untuk mengatur warna teks dari elemen tersebut. */
 .read-the-docs {
   color: #888;
 }
 
+/* digunakan untuk mengatur tampilan form yang digunakan untuk menambahkan post baru. */
 .App-form {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+/* digunakan untuk mengatur tampilan post-post yang sudah ada. */
 .App-post {
   border: 1px solid white;
   padding: 10px;
